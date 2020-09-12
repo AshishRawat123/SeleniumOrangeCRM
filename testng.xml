@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeCrm SUITE">
+
+	<listeners>
+		<listener
+			class-name="com.orcrm.qa.Utility.NewAnnotationTransformer" />
+	</listeners>
+
+	<test thread-count="5" name="OrangeCRM">
+		<classes>
+			<class name="TestPages.LoginPageTest" />
+		</classes>
+	</test> <!-- OrangeCRM -->
+</suite> <!-- Suite -->

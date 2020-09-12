@@ -1,0 +1,8 @@
+Create Utility of JS functions
+create Utility of Webdiver wait
+Retry login by annotation transfer and retry analizer
+
+
+WebDriverWait wait = new WebDriverWait(driver, 30);
+		wait.until(ExpectedConditions.presenceOfElementLocated(errormsg));
+		return driver.findElement(errormsg).isDisplayed();
