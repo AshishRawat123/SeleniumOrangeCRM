@@ -3,16 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestPages.LoginPageTest">
+      <class name="TestPages.HomePageTest">
         <methods>
           <include name="deleteSceenshot"/>
+          <include name="addUserTest"/>
           <include name="reporting"/>
-          <include name="test2"/>
           <include name="flushreport"/>
           <include name="setupbrowser"/>
-          <include name="afterMethodOfTestClass"/>
         </methods>
-      </class> <!-- TestPages.LoginPageTest -->
+      </class> <!-- TestPages.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

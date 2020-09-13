@@ -31,7 +31,6 @@ public class LoginPageTest extends BaseTest {
 	@Test()
 	public void avalidateLogin() throws InterruptedException {
 		logger = extents.createTest("verify Page title");
-//		System.out.println(driver.getTitle());
 		Thread.sleep(3000);
 		int sz = lp.login(prop.getProperty("username"), prop.getProperty("password"));
 		Assert.assertEquals(sz, 11);		

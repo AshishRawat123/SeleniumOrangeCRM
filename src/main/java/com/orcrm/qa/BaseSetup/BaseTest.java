@@ -93,7 +93,6 @@ public class BaseTest {
 	}
 
 
-	// Need to fix this TestNg issue and make reporting config in Before suite
 	@BeforeSuite()
 	public void reporting() {
 		extents = new ExtentReports();
